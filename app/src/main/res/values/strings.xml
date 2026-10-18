@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Podium</string>
+    <string name="tile_label">Podium: start</string>
+
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="settings">Settings</string>
+    <string name="today">Today</string>
+    <string name="unit_h">h</string>
+    <string name="unit_min">min</string>
+    <string name="unit_s">s</string>
+    <string name="place_n">#%d</string>
+
+    <!-- Tabs -->
+    <string name="tab_stadium">Stadium</string>
+    <string name="tab_protocol">Results</string>
+    <string name="tab_medals">Medals</string>
+    <string name="tab_coach">Coach</string>
+
+    <!-- Sports, parts of life, form, conditions -->
+    <string name="sport_sprint">Sprint</string>
+    <string name="sport_marathon">Endurance</string>
+    <string name="sport_pace">Pace</string>
+    <string name="sport_sprint_rule">Faster wins. For chores, routines and errands: the same thing, done well, in less time.</string>
+    <string name="sport_marathon_rule">Longer wins. For a plank, reading without the phone, a focus session: staying with it.</string>
+    <string name="sport_pace_rule">Closest to a set time wins. For things that shouldn\'t be rushed: lunch, a walk, an evening call.</string>
+    <string name="sport_pace_rule_n">Closest to %s wins: neither rushed nor dragged out.</string>
+    <string name="ring_home">Home</string>
+    <string name="ring_body">Body</string>
+    <string name="ring_work">Work</string>
+    <string name="ring_study">Study</string>
+    <string name="ring_self">Self</string>
+    <string name="ring_other">Other</string>
+    <string name="form_clean">Clean</string>
+    <string name="form_ok">Fine</string>
+    <string name="form_rushed">Rushed</string>
+    <string name="form_sub">Clean and fine both count. A rushed heat stays in the results, but wins nothing.</string>
+    <string name="form_rushed_sub">Disqualified: a rushed heat isn\'t a record. It stays in the results with DSQ.</string>
+    <string name="cond_fresh">Fresh</string>
+    <string name="cond_tired">Tired</string>
+    <string name="cond_interrupted">Interrupted</string>
+    <string name="cond_unwell">Unwell</string>
+    <string name="cond_coffee">Coffee</string>
+    <string name="cond_new_place">New place</string>
+    <string name="pit_phone">Phone</string>
+    <string name="pit_people">People</string>
+    <string name="pit_break">Break</string>
+    <string name="pit_other">Other</string>
+    <string name="medal_gold">Gold</string>
+    <string name="medal_silver">Silver</string>
+    <string name="medal_bronze">Bronze</string>
+    <string name="tag_dsq">DSQ</string>
+    <string name="tag_record">RECORD</string>
+    <string name="tag_q">Q %1$d/%2$d</string>
+
+    <!-- Ghosts -->
+    <string name="ghost_record">Record holder</string>
+    <string name="ghost_record_sub">You, at your best</string>
+    <string name="ghost_last">Last time</string>
+    <string name="ghost_last_sub">You, the previous heat</string>
+    <string name="ghost_standard">The standard</string>
+    <string name="ghost_standard_sub">Your median: the ordinary you</string>
+    <string name="ghost_month">A month ago</string>
+    <string name="ghost_month_sub">To see how far you\'ve come</string>
+    <string name="ghost_pacer">Pacemaker</string>
+    <string name="ghost_pacer_sub">Runs exactly %s. Finish beside it.</string>
+    <string name="ghost_none">The lane next to you is empty</string>
+    <string name="ghost_none_sub">This is your first heat: it becomes the ghost for the next one.</string>
+
+    <!-- Welcome -->
+    <string name="welcome_1_title">Race the one who did it yesterday</string>
+    <string name="welcome_1_text">Every task you do again and again becomes a discipline: the morning, the kitchen after dinner, a plank. Start the clock, and in the next lane runs a ghost: you, the last time or at your best. Split the sections, see where you\'re ahead, and finish.</string>
+    <string name="welcome_2_title">Medals, and the Games</string>
+    <string name="welcome_2_text">The first three heats are qualifying: a standard has to exist. After that, every heat among your top three gets a medal, and the best of all is the record. Every four weeks the Games close with a medal table, kept by parts of life instead of nations. Rushed doesn\'t count: speed is never the point on its own.</string>
+    <string name="welcome_3_title">Your first disciplines</string>
+    <string name="welcome_3_text">Pick a few to begin with. You can rename them, add sections and make your own at any time.</string>
+    <string name="welcome_start">Open the Games</string>
+
+    <!-- Starters -->
+    <string name="st_morning">Morning: out of the door</string>
+    <string name="st_morning_s">Up|Shower|Dressed|Breakfast</string>
+    <string name="st_kitchen">The kitchen after dinner</string>
+    <string name="st_kitchen_s">Dishes|Hob|Table and floor</string>
+    <string name="st_tidy">Tidy the flat</string>
+    <string name="st_tidy_s">Things away|Dust|Floors</string>
+    <string name="st_inbox">Inbox to zero</string>
+    <string name="st_shop">The weekly shop</string>
+    <string name="st_plank">Plank</string>
+    <string name="st_read">Reading, phone in another room</string>
+    <string name="st_focus">Deep work, no switching</string>
+    <string name="st_lunch">Lunch without hurrying</string>
+    <string name="st_run">5 km run</string>
+    <string name="demo_relay">The evening</string>
+
+    <!-- Stadium -->
+    <string name="games_eyebrow">Games %1$d · %2$s</string>
+    <string name="games_n">Games %d</string>
+    <string name="games_left">To the closing</string>
+    <string name="games_today">Today</string>
+    <string name="games_flame">Flame</string>
+    <string name="games_medals">Medals at these Games</string>
+    <string name="stadium_events">Disciplines</string>
+    <string name="stadium_relays">Relays</string>
+    <string name="stadium_retired">Retired</string>
+    <string name="stadium_empty">No disciplines yet. Add something you do again and again, and race it.</string>
+    <string name="running_now">Heat under way</string>
+    <string name="running_pit">In the pits</string>
+    <string name="ceremony_banner_eyebrow">Closing ceremony</string>
+    <string name="ceremony_banner">Games %d are over: see the medal table</string>
+    <string name="event_record">Record</string>
+    <string name="event_last">Last</string>
+
+    <!-- Discipline -->
+    <string name="event_new">New discipline</string>
+    <string name="event_edit">Discipline</string>
+    <string name="event_name_hint">The kitchen after dinner</string>
+    <string name="event_picto">Pictogram</string>
+    <string name="event_ring">Part of life</string>
+    <string name="event_ring_why">The medal table is kept by these, like nations at the Games.</string>
+    <string name="event_sport">How it\'s won</string>
+    <string name="event_sections">Sections</string>
+    <string name="event_sections_why">Optional. Split a long task into stretches, tap at each one, and see where the time goes. Two or more.</string>
+    <string name="section_hint">Dishes</string>
+    <string name="section_add">Add a section</string>
+    <string name="sections_changed">Earlier heats with a different number of sections keep their totals but drop out of the section times.</string>
+    <string name="event_more">More</string>
+    <string name="event_retire">Retire</string>
+    <string name="event_retire_sub">Off the start list, records kept</string>
+    <string name="event_delete">Delete the discipline</string>
+    <string name="event_delete_title">Delete %s?</string>
+    <string name="event_curve">Learning curve</string>
+    <string name="event_curve_key">Dots are heats (hollow: rushed), gold is the record, dashes the standard. Up is better.</string>
+    <string name="event_form">Form</string>
+    <string name="event_heats">Heats</string>
+    <string name="stat_heats">Heats</string>
+    <string name="stat_standard">Standard</string>
+    <string name="stat_spread">Spread</string>
+    <string name="trend_better">%d%% better than your first five heats.</string>
+    <string name="trend_worse">%d%% behind your first five heats. It happens: look at the conditions.</string>
+    <string name="trend_flat">About where you started. A new section split might show where to gain.</string>
+    <string name="plateau">A plateau: the last heats are steady and the record hasn\'t moved. Faster may not be the point any more. Try a section you always lose time in, or go for a clean heat every time.</string>
+    <string name="qual_title">Qualifying</string>
+    <string name="qual_why">The first heats set the standard. Medals come once there is something to beat.</string>
+    <string name="sec_best">Best</string>
+    <string name="sec_usual">Usual</string>
+    <string name="sec_gold">Best ever</string>
+    <string name="sec_gold_why">Stars: sections never run faster before.</string>
+    <string name="sum_of_best">The perfect heat</string>
+    <string name="sum_of_best_why">Every section at its best, put together. It\'s possible: you\'ve done each part already.</string>
+    <string name="manual_add">By hand</string>
+
+    <!-- Start -->
+    <string name="start_title">To the start</string>
+    <string name="start_cd">Start</string>
+    <string name="start_ghost">In the next lane</string>
+    <string name="start_guess">Your entry</string>
+    <string name="guess_switch">Enter a time</string>
+    <string name="guess_sub">How long will it take? Afterwards you\'ll see how far off you were. Everyone underestimates.</string>
+    <string name="start_go">On your marks</string>
+    <string name="cd_1">On your marks</string>
+    <string name="cd_2">Get set</string>
+    <string name="cd_3">Go!</string>
+    <string name="picker_title">To the start line</string>
+    <string name="relay_eyebrow">Relay</string>
+    <string name="relay_best">Relay record: %s</string>
+
+    <!-- Heat -->
+    <string name="heat_you">You</string>
+    <string name="heat_split">Split</string>
+    <string name="heat_split_to">Split · next: %s</string>
+    <string name="heat_finish">Finish</string>
+    <string name="heat_pit">Pit stop</string>
+    <string name="heat_quit">Pull out</string>
+    <string name="heat_quit_title">Pull out of the heat?</string>
+    <string name="heat_quit_text">The clock stops and nothing is written down.</string>
+    <string name="heat_quit_relay">This leg is thrown away; legs already run stay in the results.</string>
+    <string name="heat_quit_go">Pull out</string>
+    <string name="heat_leg">Relay %3$s · leg %1$d of %2$d</string>
+    <string name="heat_guess">Your entry: %s</string>
+    <string name="board_first">Qualifying heat: no ghost yet</string>
+    <string name="board_behind">%s behind the ghost</string>
+    <string name="board_split">Split %s</string>
+    <string name="board_ghost_finish">The ghost finishes in %s</string>
+    <string name="board_ghost_split">The ghost reaches the split in %s</string>
+    <string name="board_to_record">%s to the record</string>
+    <string name="board_record">New record: +%s and counting</string>
+    <string name="board_to_target">%s to the target</string>
+    <string name="board_over">%s past the target</string>
+    <string name="board_paused">Clock stopped</string>
+    <string name="pit_title">Pit stop · %s</string>
+    <string name="pit_sub">The clock is stopped. What took you away?</string>
+
+    <!-- Result -->
+    <string name="run_result">Result</string>
+    <string name="run_done">Done</string>
+    <string name="res_dsq">Disqualified: rushed</string>
+    <string name="res_debut">Debut. The first heat sets the line.</string>
+    <string name="res_record">Gold. A new record!</string>
+    <string name="res_record_q">A qualifying record: medals start after %d heats.</string>
+    <string name="res_medal">%1$s · %2$s of %3$d</string>
+    <string name="res_qualifying">Qualifying heat %1$d of %2$d</string>
+    <string name="res_place">%1$s of %2$d</string>
+    <string name="vs_record">Against the record</string>
+    <string name="vs_standard">Against the standard</string>
+    <string name="vs_last">Against last time</string>
+    <string name="vs_target">Against the target</string>
+    <string name="photo_finish">Photo finish: %s between you and the record.</string>
+    <string name="run_guess">Your entry</string>
+    <string name="run_guess_line">Entered %1$s, took %2$s</string>
+    <string name="guess_close">Spot on: within five per cent.</string>
+    <string name="guess_longer">It took longer than you thought.</string>
+    <string name="guess_shorter">Quicker than you thought.</string>
+    <string name="run_pits">Pit stops</string>
+    <string name="run_pits_why">Not counted in the time, but here so you know where it went.</string>
+    <string name="run_pits_short">pits %s</string>
+    <string name="run_form">How it was done</string>
+    <string name="run_conditions">Conditions</string>
+    <string name="run_note">Note</string>
+    <string name="run_note_hint">What helped, what got in the way</string>
+    <string name="run_manual">Entered by hand</string>
+    <string name="run_manual_short">by hand</string>
+    <string name="run_delete_title">Delete this heat?</string>
+    <string name="run_delete_text">It leaves the results, and the places and medals of the heats after it are worked out again.</string>
+    <string name="relay_total">Relay</string>
+    <string name="relay_unfinished">Relay, not finished</string>
+    <string name="relay_unfinished_short">not finished</string>
+    <string name="relay_vs_best">%s against the relay record</string>
+
+    <!-- Manual -->
+    <string name="manual_title">A heat by hand</string>
+    <string name="manual_why">Timed with something else, or forgot to start the clock: write it in. It counts like any other.</string>
+    <string name="manual_time">Time</string>
+    <string name="manual_when">When</string>
+    <string name="manual_started">Started</string>
+
+    <!-- Relays -->
+    <string name="relay_new">New relay</string>
+    <string name="relay_why">Several disciplines in a row, the baton passed from one to the next: finish one and the next starts at once.</string>
+    <string name="relay_name_hint">The evening</string>
+    <string name="relay_legs">Legs</string>
+    <string name="relay_legs_empty">Add two or more disciplines below.</string>
+    <string name="relay_add_leg">Add a leg</string>
+    <string name="relay_history">Runnings</string>
+    <string name="relay_delete">Delete the relay</string>
+    <string name="relay_delete_title">Delete %s?</string>
+    <string name="relay_delete_text">The relay goes; its legs stay in the results as ordinary heats.</string>
+
+    <!-- Results -->
+    <string name="protocol_eyebrow">Every heat</string>
+    <string name="protocol_all">All</string>
+    <string name="protocol_empty">Nothing here yet. The results fill up with every heat.</string>
+
+    <!-- Medals -->
+    <string name="medals_why">Your three best heats in each discipline are gold, silver and bronze. A heat gets a medal if it lands among them when it\'s run.</string>
+    <string name="medals_table">Medal table</string>
+    <string name="medals_games">Past Games</string>
+    <string name="medals_cabinet">The cabinet</string>
+    <string name="medals_none">No medals yet at these Games.</string>
+    <string name="medals_total">Total</string>
+    <string name="cab_medals">Medals</string>
+    <string name="cab_records">Records</string>
+    <string name="cab_record">Record %1$s · %2$s</string>
+    <string name="ceremony_title">Closing ceremony</string>
+    <string name="games_running">Under way</string>
+    <string name="games_empty">No heats at these Games.</string>
+    <string name="games_summary">%1$d gold, %2$d silver, %3$d bronze</string>
+    <string name="games_days">Days</string>
+    <string name="games_records_set">Records set</string>
+    <string name="games_bests">Best of the Games</string>
+    <string name="games_bests_why">The best heat of each discipline raced more than once.</string>
+
+    <!-- Coach -->
+    <string name="coach_eyebrow">Read the whole protocol</string>
+    <string name="coach_why">What your heats say when you look at all of them.</string>
+    <string name="coach_empty">The coach needs a few heats first: entries, conditions and pit stops all count. Come back after a week.</string>
+    <string name="coach_calls">Your entries</string>
+    <string name="calls_good">Your entries are accurate: on average within five per cent.</string>
+    <string name="calls_under">Things take %d%% longer than you enter.</string>
+    <string name="calls_over">Things take %d%% less time than you enter.</string>
+    <string name="calls_close">%1$d of %2$d entries within five per cent</string>
+    <string name="calls_key">Plus: took longer than entered.</string>
+    <string name="coach_progress">Progress</string>
+    <string name="progress_better">%d%% better</string>
+    <string name="progress_worse">%d%% worse</string>
+    <string name="progress_key">The last five heats against the first five.</string>
+    <string name="coach_plateau">%s has reached a plateau: steady times, no record for a while. Time to go for clean heats, or a new section split.</string>
+    <string name="coach_conditions">Conditions</string>
+    <string name="effect_slower">%d%% slower</string>
+    <string name="effect_faster">%d%% faster</string>
+    <string name="effect_none">no difference</string>
+    <string name="effect_key">Sprints with the condition against those without, each against its own standard.</string>
+    <string name="coach_pits">Where the pit stops went</string>
+    <string name="coach_pits_why">Time the clock was stopped for, in all heats.</string>
+
+    <!-- Notifications -->
+    <string name="channel_ceremony">Closing ceremony</string>
+    <string name="channel_ceremony_desc">The medal table, the morning after the Games end</string>
+    <string name="channel_live">Heat under way</string>
+    <string name="channel_live_desc">The clock and the ghost, with split and finish buttons</string>
+    <string name="ceremony_note_title">Games %d: closing ceremony</string>
+    <string name="ceremony_note_text">%1$d gold, %2$d silver, %3$d bronze in %4$s. The new Games open today.</string>
+    <string name="live_section">Section %1$d of %2$d: %3$s</string>
+    <string name="live_paused">Pit stop · %s on the clock</string>
+    <string name="live_last_split">Last split %s</string>
+    <string name="live_ghost">Ghost: %s</string>
+    <string name="live_target">Target: %s</string>
+    <string name="live_first">Qualifying heat</string>
+    <string name="live_resume">Back on the track</string>
+
+    <!-- Settings -->
+    <string name="set_games">The Games</string>
+    <string name="set_games_len">How long a Games lasts</string>
+    <string name="set_games_len_sub">Then the closing ceremony and a fresh medal table.</string>
+    <string name="set_ceremony">The closing ceremony</string>
+    <string name="set_ceremony_sub">A notification the morning after the Games end</string>
+    <string name="set_heat">The heat</string>
+    <string name="set_ghost">The ghost by default</string>
+    <string name="set_haptics">A buzz</string>
+    <string name="set_haptics_sub">At each split, at the start and when an endurance heat passes the record</string>
+    <string name="set_tile">To start from anywhere: add the Podium tile to your quick settings, or long-press the app icon for your disciplines.</string>
+    <string name="set_language">Language</string>
+    <string name="set_lang_system">System</string>
+    <string name="set_data">Your data</string>
+    <string name="backup_export">Back up</string>
+    <string name="backup_export_sub">Every discipline and heat, in one file</string>
+    <string name="backup_import">Restore</string>
+    <string name="backup_import_sub">From a Podium backup</string>
+    <string name="backup_import_title">Restore from the backup?</string>
+    <string name="backup_import_text">Everything here now will be replaced by what\'s in the file.</string>
+    <string name="backup_import_go">Restore</string>
+    <string name="backup_done">Backed up.</string>
+    <string name="backup_failed">Couldn\'t write the backup.</string>
+    <string name="backup_restored">Restored.</string>
+    <string name="backup_bad">That isn\'t a Podium backup.</string>
+    <string name="set_about">About</string>
+    <string name="set_privacy">No account, no cloud, no ads, no internet permission. Everything stays on this phone. The only one you race is you.</string>
+    <string name="set_rings_note">Pictograms drawn after Otl Aicher\'s for Munich 1972. Podium has nothing to do with the IOC or any Olympic organisation.</string>
+
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="one">%d week</item>
+        <item quantity="other">%d weeks</item>
+    </plurals>
+    <plurals name="heats">
+        <item quantity="one">%d heat</item>
+        <item quantity="other">%d heats</item>
+    </plurals>
+    <plurals name="sections">
+        <item quantity="one">%d section</item>
+        <item quantity="other">%d sections</item>
+    </plurals>
+    <plurals name="qual_left">
+        <item quantity="one">%d more heat to the medals</item>
+        <item quantity="other">%d more heats to the medals</item>
+    </plurals>
+    <plurals name="since_record">
+        <item quantity="one">%d heat since the record.</item>
+        <item quantity="other">%d heats since the record.</item>
+    </plurals>
+    <plurals name="event_delete_text">
+        <item quantity="one">Its %d heat and its records will be deleted. To keep them, retire it instead.</item>
+        <item quantity="other">Its %d heats and its records will be deleted. To keep them, retire it instead.</item>
+    </plurals>
+</resources>

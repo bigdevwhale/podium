@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Podium</string>
+    <string name="tile_label">Podium: старт</string>
+
+    <!-- Common -->
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Изменить</string>
+    <string name="next">Дальше</string>
+    <string name="back">Назад</string>
+    <string name="settings">Настройки</string>
+    <string name="today">Сегодня</string>
+    <string name="unit_h">ч</string>
+    <string name="unit_min">мин</string>
+    <string name="unit_s">с</string>
+    <string name="place_n">%d-е</string>
+
+    <!-- Tabs -->
+    <string name="tab_stadium">Стадион</string>
+    <string name="tab_protocol">Протокол</string>
+    <string name="tab_medals">Медали</string>
+    <string name="tab_coach">Тренер</string>
+
+    <!-- Sports, parts of life, form, conditions -->
+    <string name="sport_sprint">Спринт</string>
+    <string name="sport_marathon">Выносливость</string>
+    <string name="sport_pace">Темп</string>
+    <string name="sport_sprint_rule">Побеждает быстрый. Для дел по дому, рутины, поручений: то же самое, сделанное хорошо, но за меньшее время.</string>
+    <string name="sport_marathon_rule">Побеждает долгий. Для планки, чтения без телефона, фокус-сессии: продержаться дольше.</string>
+    <string name="sport_pace_rule">Побеждает тот, кто ближе к заданному времени. Для того, что нельзя делать бегом: обед, прогулка, вечерний звонок.</string>
+    <string name="sport_pace_rule_n">Побеждает тот, кто ближе к %s: без спешки и без затягивания.</string>
+    <string name="ring_home">Дом</string>
+    <string name="ring_body">Тело</string>
+    <string name="ring_work">Работа</string>
+    <string name="ring_study">Учёба</string>
+    <string name="ring_self">Себе</string>
+    <string name="ring_other">Другое</string>
+    <string name="form_clean">Чисто</string>
+    <string name="form_ok">Нормально</string>
+    <string name="form_rushed">Наспех</string>
+    <string name="form_sub">«Чисто» и «нормально» засчитываются. Заезд наспех остаётся в протоколе, но ничего не выигрывает.</string>
+    <string name="form_rushed_sub">Дисквалификация: заезд наспех не может быть рекордом. Он остаётся в протоколе с пометкой DSQ.</string>
+    <string name="cond_fresh">Бодрый</string>
+    <string name="cond_tired">Усталость</string>
+    <string name="cond_interrupted">Отвлекали</string>
+    <string name="cond_unwell">Нездоровилось</string>
+    <string name="cond_coffee">Кофе</string>
+    <string name="cond_new_place">Новое место</string>
+    <string name="pit_phone">Телефон</string>
+    <string name="pit_people">Люди</string>
+    <string name="pit_break">Перерыв</string>
+    <string name="pit_other">Другое</string>
+    <string name="medal_gold">Золото</string>
+    <string name="medal_silver">Серебро</string>
+    <string name="medal_bronze">Бронза</string>
+    <string name="tag_dsq">DSQ</string>
+    <string name="tag_record">РЕКОРД</string>
+    <string name="tag_q">Q %1$d/%2$d</string>
+
+    <!-- Ghosts -->
+    <string name="ghost_record">Рекордсмен</string>
+    <string name="ghost_record_sub">Вы в лучшей форме</string>
+    <string name="ghost_last">Прошлый раз</string>
+    <string name="ghost_last_sub">Вы в предыдущем заезде</string>
+    <string name="ghost_standard">Норматив</string>
+    <string name="ghost_standard_sub">Ваша медиана: обычный вы</string>
+    <string name="ghost_month">Месяц назад</string>
+    <string name="ghost_month_sub">Чтобы увидеть, сколько пройдено</string>
+    <string name="ghost_pacer">Пейсмейкер</string>
+    <string name="ghost_pacer_sub">Бежит ровно %s. Финишируйте рядом с ним.</string>
+    <string name="ghost_none">Соседняя дорожка пуста</string>
+    <string name="ghost_none_sub">Это первый заезд: в следующий раз он станет призраком.</string>
+
+    <!-- Welcome -->
+    <string name="welcome_1_title">Гонка с тем, кто делал это вчера</string>
+    <string name="welcome_1_text">Каждое дело, которое повторяется, становится дисциплиной: утро, кухня после ужина, планка. Запустите секундомер, и по соседней дорожке побежит призрак: вы в прошлый раз или на рекорде. Отмечайте отрезки, смотрите, где вы впереди, и финишируйте.</string>
+    <string name="welcome_2_title">Медали и Игры</string>
+    <string name="welcome_2_text">Первые три заезда — квалификация: сначала нужен норматив. Дальше каждый заезд, попавший в вашу тройку лучших, получает медаль, а лучший из всех — это рекорд. Каждые четыре недели Игры закрываются медальным зачётом, но не по странам, а по сферам жизни. Наспех не считается: скорость сама по себе — не цель.</string>
+    <string name="welcome_3_title">Первые дисциплины</string>
+    <string name="welcome_3_text">Выберите несколько для начала. Их можно переименовать, разбить на отрезки и добавить свои в любой момент.</string>
+    <string name="welcome_start">Открыть Игры</string>
+
+    <!-- Starters -->
+    <string name="st_morning">Утро: выйти из дома</string>
+    <string name="st_morning_s">Подъём|Душ|Одеться|Завтрак</string>
+    <string name="st_kitchen">Кухня после ужина</string>
+    <string name="st_kitchen_s">Посуда|Плита|Стол и пол</string>
+    <string name="st_tidy">Порядок в квартире</string>
+    <string name="st_tidy_s">Вещи по местам|Пыль|Полы</string>
+    <string name="st_inbox">Разобрать почту до нуля</string>
+    <string name="st_shop">Закупка на неделю</string>
+    <string name="st_plank">Планка</string>
+    <string name="st_read">Чтение, телефон в другой комнате</string>
+    <string name="st_focus">Глубокая работа без переключений</string>
+    <string name="st_lunch">Обед без спешки</string>
+    <string name="st_run">Пробежка 5 км</string>
+    <string name="demo_relay">Вечер</string>
+
+    <!-- Stadium -->
+    <string name="games_eyebrow">Игры %1$d · %2$s</string>
+    <string name="games_n">Игры %d</string>
+    <string name="games_left">До закрытия</string>
+    <string name="games_today">Сегодня</string>
+    <string name="games_flame">Огонь</string>
+    <string name="games_medals">Медали этих Игр</string>
+    <string name="stadium_events">Дисциплины</string>
+    <string name="stadium_relays">Эстафеты</string>
+    <string name="stadium_retired">В запасе</string>
+    <string name="stadium_empty">Пока нет дисциплин. Добавьте то, что делаете снова и снова, и устройте забег.</string>
+    <string name="running_now">Идёт заезд</string>
+    <string name="running_pit">Пит-стоп</string>
+    <string name="ceremony_banner_eyebrow">Церемония закрытия</string>
+    <string name="ceremony_banner">Игры %d завершены: посмотрите медальный зачёт</string>
+    <string name="event_record">Рекорд</string>
+    <string name="event_last">Последний</string>
+
+    <!-- Discipline -->
+    <string name="event_new">Новая дисциплина</string>
+    <string name="event_edit">Дисциплина</string>
+    <string name="event_name_hint">Кухня после ужина</string>
+    <string name="event_picto">Пиктограмма</string>
+    <string name="event_ring">Сфера жизни</string>
+    <string name="event_ring_why">Медальный зачёт ведётся по сферам, как по странам на Играх.</string>
+    <string name="event_sport">Как побеждать</string>
+    <string name="event_sections">Отрезки</string>
+    <string name="event_sections_why">По желанию. Разбейте длинное дело на отрезки, отмечайте каждый и смотрите, куда уходит время. Два или больше.</string>
+    <string name="section_hint">Посуда</string>
+    <string name="section_add">Добавить отрезок</string>
+    <string name="sections_changed">У прошлых заездов с другим числом отрезков сохранится общее время, но они выпадут из времени по отрезкам.</string>
+    <string name="event_more">Ещё</string>
+    <string name="event_retire">В запас</string>
+    <string name="event_retire_sub">Убрать из стартового списка, рекорды останутся</string>
+    <string name="event_delete">Удалить дисциплину</string>
+    <string name="event_delete_title">Удалить «%s»?</string>
+    <string name="event_curve">Кривая обучения</string>
+    <string name="event_curve_key">Точки — заезды (пустые — наспех), золото — рекорд, пунктир — норматив. Выше — лучше.</string>
+    <string name="event_form">Форма</string>
+    <string name="event_heats">Заезды</string>
+    <string name="stat_heats">Заездов</string>
+    <string name="stat_standard">Норматив</string>
+    <string name="stat_spread">Разброс</string>
+    <string name="trend_better">На %d%% лучше, чем первые пять заездов.</string>
+    <string name="trend_worse">На %d%% хуже первых пяти заездов. Бывает: посмотрите на условия.</string>
+    <string name="trend_flat">Примерно там же, где начинали. Разбивка на отрезки может показать, где выиграть.</string>
+    <string name="plateau">Плато: последние заезды ровные, а рекорд не двигается. Возможно, скорость больше не цель. Займитесь отрезком, на котором всегда теряете время, или добивайтесь чистого заезда каждый раз.</string>
+    <string name="qual_title">Квалификация</string>
+    <string name="qual_why">Первые заезды задают норматив. Медали появятся, когда будет что побеждать.</string>
+    <string name="sec_best">Лучшее</string>
+    <string name="sec_usual">Обычно</string>
+    <string name="sec_gold">Лучшее за всё время</string>
+    <string name="sec_gold_why">Звёзды: отрезки, которые вы ещё никогда не проходили быстрее.</string>
+    <string name="sum_of_best">Идеальный заезд</string>
+    <string name="sum_of_best_why">Все отрезки в лучшем виде, вместе. Это возможно: каждую часть вы уже проходили.</string>
+    <string name="manual_add">Вручную</string>
+
+    <!-- Start -->
+    <string name="start_title">Перед стартом</string>
+    <string name="start_cd">Старт</string>
+    <string name="start_ghost">На соседней дорожке</string>
+    <string name="start_guess">Заявка</string>
+    <string name="guess_switch">Заявить время</string>
+    <string name="guess_sub">Сколько это займёт? После финиша увидите, насколько ошиблись. Недооценивают все.</string>
+    <string name="start_go">На старт</string>
+    <string name="cd_1">На старт</string>
+    <string name="cd_2">Внимание</string>
+    <string name="cd_3">Марш!</string>
+    <string name="picker_title">К стартовой линии</string>
+    <string name="relay_eyebrow">Эстафета</string>
+    <string name="relay_best">Рекорд эстафеты: %s</string>
+
+    <!-- Heat -->
+    <string name="heat_you">Вы</string>
+    <string name="heat_split">Отсечка</string>
+    <string name="heat_split_to">Отсечка · дальше: %s</string>
+    <string name="heat_finish">Финиш</string>
+    <string name="heat_pit">Пит-стоп</string>
+    <string name="heat_quit">Сойти с дистанции</string>
+    <string name="heat_quit_title">Сойти с дистанции?</string>
+    <string name="heat_quit_text">Секундомер остановится, ничего не запишется.</string>
+    <string name="heat_quit_relay">Этот этап пропадёт; пройденные этапы останутся в протоколе.</string>
+    <string name="heat_quit_go">Сойти</string>
+    <string name="heat_leg">Эстафета «%3$s» · этап %1$d из %2$d</string>
+    <string name="heat_guess">Заявка: %s</string>
+    <string name="board_first">Квалификационный заезд: призрака пока нет</string>
+    <string name="board_behind">%s за призраком</string>
+    <string name="board_split">Отсечка %s</string>
+    <string name="board_ghost_finish">Призрак финиширует через %s</string>
+    <string name="board_ghost_split">Призрак будет на отсечке через %s</string>
+    <string name="board_to_record">%s до рекорда</string>
+    <string name="board_record">Новый рекорд: +%s и дальше</string>
+    <string name="board_to_target">%s до цели</string>
+    <string name="board_over">Перебор %s</string>
+    <string name="board_paused">Секундомер остановлен</string>
+    <string name="pit_title">Пит-стоп · %s</string>
+    <string name="pit_sub">Секундомер стоит. Что вас отвлекло?</string>
+
+    <!-- Result -->
+    <string name="run_result">Результат</string>
+    <string name="run_done">Готово</string>
+    <string name="res_dsq">Дисквалификация: наспех</string>
+    <string name="res_debut">Дебют. Первый заезд задаёт планку.</string>
+    <string name="res_record">Золото. Новый рекорд!</string>
+    <string name="res_record_q">Рекорд квалификации: медали начнутся после %d заездов.</string>
+    <string name="res_medal">%1$s · %2$s место из %3$d</string>
+    <string name="res_qualifying">Квалификация: заезд %1$d из %2$d</string>
+    <string name="res_place">%1$s место из %2$d</string>
+    <string name="vs_record">К рекорду</string>
+    <string name="vs_standard">К нормативу</string>
+    <string name="vs_last">К прошлому разу</string>
+    <string name="vs_target">К цели</string>
+    <string name="photo_finish">Фотофиниш: %s между вами и рекордом.</string>
+    <string name="run_guess">Заявка</string>
+    <string name="run_guess_line">Заявлено %1$s, вышло %2$s</string>
+    <string name="guess_close">В точку: ошибка меньше пяти процентов.</string>
+    <string name="guess_longer">Заняло больше, чем вы думали.</string>
+    <string name="guess_shorter">Быстрее, чем вы думали.</string>
+    <string name="run_pits">Пит-стопы</string>
+    <string name="run_pits_why">Не входят во время, но здесь видно, куда оно ушло.</string>
+    <string name="run_pits_short">пит-стоп %s</string>
+    <string name="run_form">Как сделано</string>
+    <string name="run_conditions">Условия</string>
+    <string name="run_note">Заметка</string>
+    <string name="run_note_hint">Что помогло, что мешало</string>
+    <string name="run_manual">Записано вручную</string>
+    <string name="run_manual_short">вручную</string>
+    <string name="run_delete_title">Удалить заезд?</string>
+    <string name="run_delete_text">Он уйдёт из протокола, а места и медали следующих заездов пересчитаются.</string>
+    <string name="relay_total">Эстафета</string>
+    <string name="relay_unfinished">Эстафета не закончена</string>
+    <string name="relay_unfinished_short">не закончена</string>
+    <string name="relay_vs_best">%s к рекорду эстафеты</string>
+
+    <!-- Manual -->
+    <string name="manual_title">Заезд вручную</string>
+    <string name="manual_why">Засекали чем-то другим или забыли включить секундомер: запишите. Засчитывается как любой другой.</string>
+    <string name="manual_time">Время</string>
+    <string name="manual_when">Когда</string>
+    <string name="manual_started">Начало</string>
+
+    <!-- Relays -->
+    <string name="relay_new">Новая эстафета</string>
+    <string name="relay_why">Несколько дисциплин подряд, палочка переходит от одной к другой: финишировали — следующая начинается сразу.</string>
+    <string name="relay_name_hint">Вечер</string>
+    <string name="relay_legs">Этапы</string>
+    <string name="relay_legs_empty">Добавьте ниже две дисциплины или больше.</string>
+    <string name="relay_add_leg">Добавить этап</string>
+    <string name="relay_history">Забеги</string>
+    <string name="relay_delete">Удалить эстафету</string>
+    <string name="relay_delete_title">Удалить «%s»?</string>
+    <string name="relay_delete_text">Эстафета исчезнет, а её этапы останутся в протоколе как обычные заезды.</string>
+
+    <!-- Results -->
+    <string name="protocol_eyebrow">Все заезды</string>
+    <string name="protocol_all">Все</string>
+    <string name="protocol_empty">Пока пусто. Протокол заполняется с каждым заездом.</string>
+
+    <!-- Medals -->
+    <string name="medals_why">Три лучших заезда в каждой дисциплине — это золото, серебро и бронза. Заезд получает медаль, если в момент забега попал в эту тройку.</string>
+    <string name="medals_table">Медальный зачёт</string>
+    <string name="medals_games">Прошлые Игры</string>
+    <string name="medals_cabinet">Витрина</string>
+    <string name="medals_none">На этих Играх медалей пока нет.</string>
+    <string name="medals_total">Всего</string>
+    <string name="cab_medals">Медалей</string>
+    <string name="cab_records">Рекордов</string>
+    <string name="cab_record">Рекорд %1$s · %2$s</string>
+    <string name="ceremony_title">Церемония закрытия</string>
+    <string name="games_running">Идут сейчас</string>
+    <string name="games_empty">На этих Играх не было заездов.</string>
+    <string name="games_summary">Золото: %1$d, серебро: %2$d, бронза: %3$d</string>
+    <string name="games_days">Дней</string>
+    <string name="games_records_set">Установленные рекорды</string>
+    <string name="games_bests">Лучшее на Играх</string>
+    <string name="games_bests_why">Лучший заезд каждой дисциплины, в которой было больше одного забега.</string>
+
+    <!-- Coach -->
+    <string name="coach_eyebrow">Весь протокол целиком</string>
+    <string name="coach_why">Что говорят ваши заезды, если посмотреть на все сразу.</string>
+    <string name="coach_empty">Тренеру сначала нужны заезды: в счёт идут заявки, условия и пит-стопы. Загляните через неделю.</string>
+    <string name="coach_calls">Ваши заявки</string>
+    <string name="calls_good">Ваши заявки точны: в среднем ошибка меньше пяти процентов.</string>
+    <string name="calls_under">Дела занимают на %d%% больше, чем вы заявляете.</string>
+    <string name="calls_over">Дела занимают на %d%% меньше, чем вы заявляете.</string>
+    <string name="calls_close">Точных заявок (до пяти процентов): %1$d из %2$d</string>
+    <string name="calls_key">Плюс: заняло больше заявленного.</string>
+    <string name="coach_progress">Прогресс</string>
+    <string name="progress_better">лучше на %d%%</string>
+    <string name="progress_worse">хуже на %d%%</string>
+    <string name="progress_key">Последние пять заездов против первых пяти.</string>
+    <string name="coach_plateau">«%s»: плато. Время ровное, рекорда давно нет. Пора добиваться чистых заездов или разбить дело на отрезки.</string>
+    <string name="coach_conditions">Условия</string>
+    <string name="effect_slower">медленнее на %d%%</string>
+    <string name="effect_faster">быстрее на %d%%</string>
+    <string name="effect_none">без разницы</string>
+    <string name="effect_key">Спринты с этим условием против спринтов без него, каждый к своему нормативу.</string>
+    <string name="coach_pits">Куда ушли пит-стопы</string>
+    <string name="coach_pits_why">Время, на которое останавливался секундомер, во всех заездах.</string>
+
+    <!-- Notifications -->
+    <string name="channel_ceremony">Церемония закрытия</string>
+    <string name="channel_ceremony_desc">Медальный зачёт наутро после окончания Игр</string>
+    <string name="channel_live">Идёт заезд</string>
+    <string name="channel_live_desc">Секундомер и призрак, с кнопками отсечки и финиша</string>
+    <string name="ceremony_note_title">Игры %d: церемония закрытия</string>
+    <string name="ceremony_note_text">Золото: %1$d, серебро: %2$d, бронза: %3$d. Всего %4$s. Сегодня открываются новые Игры.</string>
+    <string name="live_section">Отрезок %1$d из %2$d: %3$s</string>
+    <string name="live_paused">Пит-стоп · на секундомере %s</string>
+    <string name="live_last_split">Последняя отсечка %s</string>
+    <string name="live_ghost">Призрак: %s</string>
+    <string name="live_target">Цель: %s</string>
+    <string name="live_first">Квалификационный заезд</string>
+    <string name="live_resume">Вернуться на дорожку</string>
+
+    <!-- Settings -->
+    <string name="set_games">Игры</string>
+    <string name="set_games_len">Сколько длятся Игры</string>
+    <string name="set_games_len_sub">Потом церемония закрытия и новый медальный зачёт.</string>
+    <string name="set_ceremony">Церемония закрытия</string>
+    <string name="set_ceremony_sub">Уведомление наутро после окончания Игр</string>
+    <string name="set_heat">Заезд</string>
+    <string name="set_ghost">Призрак по умолчанию</string>
+    <string name="set_haptics">Вибрация</string>
+    <string name="set_haptics_sub">На каждой отсечке, на старте и когда заезд на выносливость обходит рекорд</string>
+    <string name="set_tile">Чтобы стартовать откуда угодно, добавьте плитку Podium в шторку или нажмите и подержите иконку приложения — там ваши дисциплины.</string>
+    <string name="set_language">Язык</string>
+    <string name="set_lang_system">Системный</string>
+    <string name="set_data">Ваши данные</string>
+    <string name="backup_export">Резервная копия</string>
+    <string name="backup_export_sub">Все дисциплины и заезды в одном файле</string>
+    <string name="backup_import">Восстановить</string>
+    <string name="backup_import_sub">Из копии Podium</string>
+    <string name="backup_import_title">Восстановить из копии?</string>
+    <string name="backup_import_text">Всё, что здесь есть сейчас, заменится содержимым файла.</string>
+    <string name="backup_import_go">Восстановить</string>
+    <string name="backup_done">Копия сохранена.</string>
+    <string name="backup_failed">Не удалось сохранить копию.</string>
+    <string name="backup_restored">Восстановлено.</string>
+    <string name="backup_bad">Это не копия Podium.</string>
+    <string name="set_about">О приложении</string>
+    <string name="set_privacy">Без аккаунта, облака, рекламы и доступа в интернет. Всё хранится на этом телефоне. Соревнуетесь вы только с собой.</string>
+    <string name="set_rings_note">Пиктограммы нарисованы по мотивам Отля Айхера для Мюнхена-1972. Podium не имеет отношения к МОК и олимпийским организациям.</string>
+
+    <plurals name="days">
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+        <item quantity="other">%d дня</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="one">%d неделя</item>
+        <item quantity="few">%d недели</item>
+        <item quantity="many">%d недель</item>
+        <item quantity="other">%d недели</item>
+    </plurals>
+    <plurals name="heats">
+        <item quantity="one">%d заезд</item>
+        <item quantity="few">%d заезда</item>
+        <item quantity="many">%d заездов</item>
+        <item quantity="other">%d заезда</item>
+    </plurals>
+    <plurals name="sections">
+        <item quantity="one">%d отрезок</item>
+        <item quantity="few">%d отрезка</item>
+        <item quantity="many">%d отрезков</item>
+        <item quantity="other">%d отрезка</item>
+    </plurals>
+    <plurals name="qual_left">
+        <item quantity="one">Ещё %d заезд до медалей</item>
+        <item quantity="few">Ещё %d заезда до медалей</item>
+        <item quantity="many">Ещё %d заездов до медалей</item>
+        <item quantity="other">Ещё %d заезда до медалей</item>
+    </plurals>
+    <plurals name="since_record">
+        <item quantity="one">%d заезд с момента рекорда.</item>
+        <item quantity="few">%d заезда с момента рекорда.</item>
+        <item quantity="many">%d заездов с момента рекорда.</item>
+        <item quantity="other">%d заезда с момента рекорда.</item>
+    </plurals>
+    <plurals name="event_delete_text">
+        <item quantity="one">Удалятся %d заезд и рекорды. Чтобы их сохранить, отправьте дисциплину в запас.</item>
+        <item quantity="few">Удалятся %d заезда и рекорды. Чтобы их сохранить, отправьте дисциплину в запас.</item>
+        <item quantity="many">Удалятся %d заездов и рекорды. Чтобы их сохранить, отправьте дисциплину в запас.</item>
+        <item quantity="other">Удалятся %d заезда и рекорды. Чтобы их сохранить, отправьте дисциплину в запас.</item>
+    </plurals>
+</resources>

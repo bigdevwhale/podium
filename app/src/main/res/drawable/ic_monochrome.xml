@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The runner from the Munich-style pictograms: the mark of the house. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <group android:translateX="30" android:translateY="30" android:scaleX="2" android:scaleY="2">
+        <path android:strokeColor="#FF000000" android:strokeWidth="2.5" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M13.6,7.2 L10.6,13 M10.6,13 L15,15.2 L14,20.8 M10.6,13 L7.8,16.8 L3.8,17.6 M13.2,8 L16.4,10 L18.8,7.8 M12.8,8.4 L9.6,9.6 L7.8,12.4" />
+        <path android:fillColor="#FF000000" android:pathData="M14.5,3.4 m-2.3,0 a2.3,2.3 0 1,0 4.6,0 a2.3,2.3 0 1,0 -4.6,0" />
+    </group>
+</vector>

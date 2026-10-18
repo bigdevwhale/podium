@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A launcher shortcut to one discipline: the runner on the light-blue disc. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="48dp" android:height="48dp" android:viewportWidth="48" android:viewportHeight="48">
+    <path android:fillColor="#FF1C88CC" android:pathData="M24,24m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0" />
+    <group android:translateX="12" android:translateY="12">
+        <path android:strokeColor="#FFFFFFFF" android:strokeWidth="2.5" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M13.6,7.2 L10.6,13 M10.6,13 L15,15.2 L14,20.8 M10.6,13 L7.8,16.8 L3.8,17.6 M13.2,8 L16.4,10 L18.8,7.8 M12.8,8.4 L9.6,9.6 L7.8,12.4" />
+        <path android:fillColor="#FFFFFFFF" android:pathData="M14.5,3.4 m-2.3,0 a2.3,2.3 0 1,0 4.6,0 a2.3,2.3 0 1,0 -4.6,0" />
+    </group>
+</vector>
