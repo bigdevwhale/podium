@@ -44,6 +44,7 @@ import app.podium.ui.Go
 import app.podium.ui.Language
 import app.podium.ui.T
 import app.podium.ui.components.Chip
+import app.podium.ui.components.CommunityLinks
 import app.podium.ui.components.ConfirmDialog
 import app.podium.ui.components.InfoRow
 import app.podium.ui.components.SectionTitle
@@ -122,6 +123,8 @@ fun SettingsScreen(arena: Arena, go: Go) {
                 InfoRow(Icons.Rounded.Upload, stringResource(R.string.backup_export_sub), stringResource(R.string.backup_export)) { export.launch("podium-${LocalDate.now()}.json") }
                 InfoRow(Icons.Rounded.Download, stringResource(R.string.backup_import_sub), stringResource(R.string.backup_import)) { import.launch(arrayOf("application/json", "text/plain", "*/*")) }
             }
+
+            CommunityLinks()
 
             SectionTitle(stringResource(R.string.set_about))
             Text(stringResource(R.string.set_privacy), style = UType.Sub)

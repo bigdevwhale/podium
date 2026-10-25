@@ -6,6 +6,13 @@ line "<!-- tg", then 2-4 short lines in Russian for users (what is new, what is 
 then close it like any HTML comment. The release notes carry it, and the chat bot posts those lines.
 -->
 
+## [1.0.1] - 2026-10-25
+
+### Added
+- Community links in settings: report a bug, suggest an idea or follow updates through the StillCraft bot on Telegram, and the StillCraft chat.
+
+<!-- tg skip -->
+
 ## [1.0.0]
 
 - First release: disciplines raced against your own ghost (record holder, last time, the standard, a month ago), on a Munich-1972 track with pictograms after Otl Aicher (33 of them).
